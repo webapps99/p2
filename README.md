@@ -7,8 +7,8 @@
 ----
 ## Description
 The purpose of this project is to set up a xkcd Password Generator. The xkcd Password
-Generator is based on the cartoon at <http://xkcd.com/> about password strength. Passwords
-are easier to remember when generated based on a random sequence of words.
+Generator is based on the cartoon at <http://xkcd.com/936/> about password strength.
+Passwords are easier to remember when generated based on a random sequence of words.
 
 ----
 ## Demo
