@@ -10,17 +10,13 @@
     <h2>Generate a new password:</h2>
 
 
+
+
     <form method="POST" action="index.php">
 
 
-        <div>
-            <label name="uppercase">Select number of words: </label>
-
-
-
-
-
-            <select class="element select small" id="no_of_words" name="no_of_words" ">
+            <label for="no_of_words">Select number of words: </label>
+            <select id="no_of_words" name="no_of_words">
 
                 <option value="1" selected="selected" >1</option>
                 <option value="2" <?php if($item == 2): echo "selected='selected'"; endif; ?>>2</option>
@@ -32,18 +28,19 @@
                 <option value="8" <?php if($item == 8): echo "selected='selected'"; endif; ?>>8</option>
                 <option value="9" <?php if($item == 9): echo "selected='selected'"; endif; ?>>9</option>
 
-            </select>
-        </div><br />
+            </select><br/><br/>
 
-        <label name="uppercase">First letter Uppercase?</label>
-        <input type="checkbox" name="uppercase" value="uppercase" <?php if(!empty($_POST['uppercase'])): ?> checked="checked"<?php endif; ?>  /><br /><br />
 
-        <label name="symbol">Add a symbol?</label>
-        <input type="checkbox" name="symbol" value="symbol" <?php if(!empty($_POST['symbol'])): ?> checked="checked"<?php endif; ?>  /><br /><br />
+        <label for="uppercase">First letter Uppercase?</label>
+        <input type="checkbox" name="uppercase" id="uppercase" <?php if(!empty($_POST['uppercase'])): ?> checked="checked"<?php endif; ?>  /><br /><br />
 
-        <label name="number">Add a number?</label>
-        <input type="checkbox" name="number" value="number" <?php if(!empty($_POST['number'])): ?> checked="checked"<?php endif; ?> /><br /><br />
+        <label for="symbol">Add a symbol?</label>
+        <input type="checkbox" name="symbol" id="symbol" <?php if(!empty($_POST['symbol'])): ?> checked="checked"<?php endif; ?>  /><br /><br />
+
+        <label for="number">Add a number?</label>
+        <input type="checkbox" name="number" id="number" <?php if(!empty($_POST['number'])): ?> checked="checked"<?php endif; ?> /><br /><br />
 
         <input type="submit" name="submit" value="Generate"/>
 
     </form>
+</div><br />

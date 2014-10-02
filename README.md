@@ -13,7 +13,7 @@ Passwords are easier to remember when generated based on a random sequence of wo
 ----
 ## Demo
 
-Plan to attend Section to complete live demo.
+Plan to attend Section on Tuesday, October 7, @ 7:30pm EST to complete live demo.
 
 ----
 ## Details for Teaching Team
