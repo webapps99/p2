@@ -43,7 +43,7 @@ ini_set('display_errors', 1);
                 <li>Choose number of words: Indicates how many random words will be chosen to generate the password. Range is 1-9, Default is 1</li>
                 <li>First Letter Uppercase: If on, the first letter of each word in the password will be capitalized. Default is off.</li>
                 <li>Add a symbol: If on, a symbol character is appended to the end of the password. Default is off.</li>
-                <li>Add a number: If on, a number between 1 and 9 will be appended to the end of the password. Default is off.</li>
+                <li>Add a number: If on, a number between 0 and 9 will be appended to the end of the password. Default is off.</li>
              </ul>
         </li>
         <li>Push the Generate button.</li>
